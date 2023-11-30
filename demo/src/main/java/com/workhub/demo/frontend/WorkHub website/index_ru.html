@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>WorkHub</title>
+	<!-- Bootstrap-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container header-container">
+			<a class="logo">WorkHub</a>
+
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item"><a href="" class="nav__link">Главная</a></li>
+					<li class="nav__item"><a href="#our-customers" class="nav__link">Наши клиенты</a></li>
+					<li class="nav__item"><a href="#our-solutions" class="nav__link">Наши предложения</a></li>
+					<li class="nav__item"><a href="" class="nav__link">Контакты</a></li>
+					<li class="nav__item"><a href="" class="nav__link">Вакансии</a></li>
+				</ul>
+			</nav>
+
+			<!--Social media icons and links -->
+			<ul class="header__social social">
+				<li class="social__item">
+					<a href="https://www.facebook.com/profile.php?id=100004837714364" class="social__link social__link--fb"
+					aria-label="Go to Facebook" target="_blank"></a> <!--aria-label to see the discription - used for icons-->
+				</li>
+				<li class="social__item">
+					<a href="https://www.instagram.com/natalya_kir_/" class="social__link social__link--in"
+					aria-label="Go to Instagram" target="_blank"></a>
+				</li>
+
+				<div class="dropdown">
+					<button class="dropbtn">
+						<li class="social__item"  ><!--language switcher -->
+							<a href="" class="social__link social__link--ls"
+							   aria-label="Change Language"></a>
+							<i class="fa fa-caret-down"></i>
+							<div class="dropdown">
+								<div class="dropdown-content">
+									<a href="index_en.html">EN</a>
+									<a href="index_de.html">DE</a>
+								</div>
+							</div>
+			</div>
+		</div>
+		</li>
+		</ul>
+		</div>
+	</header>
+
+	<main class="main">
+		<section class="hero hero-ru">
+			<div class="container hero-container">
+				<div class="hero-text">
+					<h1 class="hero-title-rus">Система управления персоналом   WorkHub</h1>
+					<p class="hero-descr-ru">
+
+						Мы предлагаем комплексное решение для эффективного управления персоналом и коммуникациями в вашей организации.<br>
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="services" id="our-customers">
+			<div class="container">
+				<h2 class="title">Наши клиенты</h2>
+				<ul class="services__list">
+					<li class="services__item scroll-item" ></li>
+					<li class="services__item scroll-item"></li>
+					<li class="services__item scroll-item"></li>
+					<li class="services__item scroll-item"></li>
+					<li class="services__item scroll-item"></li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="text" id="our-solutions">
+			<div class="container">
+				<h2 class="title">Наши предложения</h2>
+				<p class="text-item scroll-item"> <b>Управление трудовыми ресурсами:</b>  WorkHub автоматизирует и упрощает составление расписаний, снижая административные издержки.</p>
+				<p class="text-item scroll-item"> <b> Локализация:</b>  WorkHub предлагает многоязыковую поддержку для более широкого круга пользователей.     </p>
+				<p class="text-item scroll-item"> <b>Доступность:</b>  WorkHub обеспечивает гибкость и удобство работы с помощью веб-приложений и мобильных устройств.     </p>
+				<p class="text-item scroll-item"> <b>Коммуникативность:</b>  WorkHub устраняет пробелы в общении благодаря интегрированному чатботу и обмену сообщениями.      </p>
+			</div>
+		</section>
+	</main>
+	<footer class="footer" >
+		<div class="container footer__container flex">
+			<nav class="footer__column">
+				<h2 class="footer__title">Компания</h2>
+				<ul class="footer__list">
+					<li class="footer__item"><a href="#" class="footer__link">О нас</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">Пресса</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">Наш блог</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">Безопасность</a></li>
+				</ul>
+			</nav>
+			<nav class="footer__column">
+				<h2 class="footer__title">Информация</h2>
+				<ul class="footer__list">
+					<li class="footer__item"><a href="#" class="footer__link">Наша история</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">Ресурсы</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">Рассылка</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">Контакты</a></li>
+				</ul>
+			</nav>
+			<nav class="footer__column">
+				<h2 class="footer__title">Клиенты</h2>
+				<ul class="footer__list">
+					<li class="footer__item"><a href="#" class="footer__link">Обслуживание клиентов</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">Вакансии</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">Конкурсы</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">Пользовательское соглашение</a></li>
+				</ul>
+			</nav>
+
+			<div class="footer__column">
+				<h2 class="footer__title">Подписаться на рассылку</h2>
+				<form action="#" class="subs-form">
+
+					<button class="btn-reset btn subs-form__btn" id ="subscribe" data-toggle="modal" data-target="#exampleModalCenter"> <a href="#modal">Подписаться </button></a>
+				</form>
+			</div>
+		</div>
+
+
+	<div class="footer__bottom">
+		<div class="container bottom-container flex">
+			<small class="footer__copy">© 2023 CodersBay Final Project.
+				Разработано Натальей Кирсановой для CodersBay. Все права защищены.</small>
+			<ul class="footer__links">
+				<li class="footer__links-item"><a href="#" class="footer__link">Условия предоставления услуг</a></li>
+				<li class="footer__links-item"><a href="#" class="footer__link">Политика конфиденциальности</a></li>
+			</ul>
+		</div>
+	</div>
+
+		<!-- Modal -> Pop up message Sign up-->
+		<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLongTitle">Подписаться</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+
+					<div class="modal-body">
+						<form id ="myForm">
+							<div class="form-group">
+								<label  class="col-form-label">Ваше имя:</label>
+								<input type="text" class="form-control" id="recipient-name">
+							</div>
+							<div class="form-group">
+								<label class="col-form-label">Ваш телефон:</label>
+								<input type="text" class="form-control" id="mobile">
+
+							</div>
+						</form>
+					</div>
+
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+						<button type="button" class="btn btn-primary" id = "submit">Отправить</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Message Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+
+					<div class="modal-body">
+						Спасибо, мы свяжемся с Вами в ближайшее время!
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+</body>
+</html>
